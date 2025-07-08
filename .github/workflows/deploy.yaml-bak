@@ -10,8 +10,8 @@ jobs:
   test:
     env: 
       MONGODB_CLUSTER_ADDRESS: trainbuscluser0.gzltqkc.mongodb.net/?retryWrites=true&w=majority&appName=trainbuscluser0
-      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}  
+      MONGODB_USERNAME: onwuabus
+      MONGODB_PASSWORD: R3ItBnNxv5XMdvhs
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
